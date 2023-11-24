@@ -1,9 +1,11 @@
 import "./App.css";
+import Header from "./layouts/header";
+
 
 function App() {
   return (
     <>
-      <h1 className="text-4xl text-blue-600">hello</h1>
+      <Header />
     </>
   );
 }
