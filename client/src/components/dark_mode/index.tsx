@@ -13,7 +13,7 @@ function DarkMode() {
 
   return (
     <div className={`flex items-center justify-between text-white rounded-full px-1 py-1`}>
-      <div className={`flex items-center rounded-full border-[3px] dark:border-blue-300 border-blue-950`}>
+      <div className={`flex items-center rounded-full border-[3px] dark:border-blue-300 border-pink-600`}>
         <button onClick={toggleDarkMode}>
           {isDarkMode ? (
             <MoonIcon className="rounded-full text-4xl text-blue-300 p-2" />

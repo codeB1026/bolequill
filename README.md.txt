@@ -46,4 +46,4 @@ Icons-
 * Quote - FaQuoteRight
 * 
 2.Logo icon - https://www.svgrepo.com/svg/285428/love-birds
-3. 
+3.boy png - '<a href='https://pngtree.com/freepng/3d-rendering-of-cute-scientist-character-illustration-looking-for-something-with-a-magnifying-glass-research_13385303.html'>png image from pngtree.com/</a>' 
