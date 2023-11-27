@@ -1,11 +1,15 @@
-import "./App.css";
+import './App.css';
+import Header from './layouts/header';
+import { RoutesPages } from './routes';
+
 
 function App() {
-  return (
-    <>
-      <h1 className="text-4xl text-blue-600">hello</h1>
-    </>
-  );
+      return (
+            <>
+                  <Header />
+                  <RoutesPages />
+            </>
+      );
 }
 
 export default App;

@@ -1,3 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&family=Noto+Sans&family=Ubuntu&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+      @apply overflow-hidden h-screen w-screen;
+}
+
+.logo_text {
+      @apply text-4xl bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 dark:from-indigo-100 dark:via-blue-600 dark:to-pink-100  font-bold font-logo tracking-wider capitalize;
+}
+
+.logo_icon {
+      @apply text-4xl text-pink-400  animate-spin ease-linear duration-300 dark:text-blue-300;
+}
+
+.title_text {
+      @apply text-center  text-[5rem] py-4 font-main font-bold bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 dark:from-indigo-100 dark:via-blue-600 dark:to-pink-100;
+}
+.title_text_2 {
+      @apply text-center  text-[5rem] -mt-4 font-main font-bold bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 dark:from-indigo-100 dark:via-blue-600 dark:to-pink-100;
+}
+
+.sub_text {
+      @apply text-center text-2xl font-sub text-pink-500 dark:text-blue-300 tracking-widest py-4;
+}
+
+.search_bar {
+      @apply w-full h-10 border-2 border-pink-500  rounded-md outline-none px-4 bg-gray-200 focus:border-red-800 dark:focus:border-red-600;
+}
+
+.btn {
+      @apply bg-pink-600 dark:bg-blue-600 dark:hover:bg-blue-700 font-sub capitalize text-white shadow-sm shadow-gray-600 py-4 px-2 rounded-md mx-2 hover:bg-pink-800 duration-200 ease-linear;
+}
+
+.btn2 {
+      @apply w-[8rem] bg-pink-600 dark:bg-blue-600 dark:hover:bg-blue-700  font-logo capitalize text-white shadow-sm shadow-gray-600 py-4 px-2 rounded-md mx-2 hover:bg-pink-800 duration-200 ease-linear border-2 border-red-300 dark:border-blue-400;
+}
+
+.input_type_text {
+      @apply absolute top-1 capitalize right-4 bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 dark:from-indigo-100 dark:via-blue-600 dark:to-pink-100  font-light font-logo tracking-wider  text-2xl pointer-events-none;
+}
+
+.input_text {
+      @apply  capitalize  bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 dark:from-indigo-100 dark:via-blue-600 dark:to-pink-100  font-light font-logo tracking-wider text-2xl ;
+}
+
+.user_selection_text {
+      @apply text-lg capitalize font-main text-gray-500 dark:text-white font-medium
+}
+
+.choose_img{
+      @apply bg-blue-300
+}
